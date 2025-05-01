@@ -26,5 +26,10 @@
     "eslint-plugin-import": "2.31.0",
     "stylelint": "16.19.1",
     "stylelint-config-standard": "38.0.0"
+  },
+  "dependencies": {
+    "aem": "^0.1.0",
+    "node": "^22.15.0",
+    "npm": "^11.3.0"
   }
 }
