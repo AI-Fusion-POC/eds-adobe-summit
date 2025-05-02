@@ -1,8 +1,10 @@
 .hero-container .hero-wrapper {
     max-width: unset;
+    padding: 2px 0;
     width: 100%;
     height: 500px;
     position: relative;
+    background: linear-gradient(rgba(20, 20, 20, 0.644), rgba(20, 20, 20, 0.5));
 }
 
 .hero {
@@ -16,15 +18,14 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    color: black;
-    -webkit-text-stroke: 0.2px rgba(247, 247, 247, 0.726);
+    color: rgb(255, 255, 255);
 }
 
 .hero picture {
     position: absolute;
     z-index: -1;
     inset: 0;
-    object-fit: contain;
+    object-fit: cover;
     box-sizing: border-box;
 }
 
@@ -32,7 +33,6 @@
     width: 100%;
     height: 500px;
     object-fit: cover;
-    filter: blur(2px);
 }
 
 @media (width >= 900px) {
