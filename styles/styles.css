@@ -80,6 +80,8 @@ body {
     font-size: var(--body-font-size-m);
     line-height: 1.6;
     color: #2e4343;
+    background-image: url("../icons/background.jpg");
+    backdrop-filter: blur(30px);
 }
 
 body.appear {
