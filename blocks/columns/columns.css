@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     padding: 20px 0px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
 }
 
 .columns.highlight {
@@ -36,5 +39,15 @@
     .columns > div > div {
         flex: 1;
         order: unset;
+    }
+
+    .columns-wrapper {
+        padding: 0 24px;
+    }
+}
+
+@media (width <= 900px) {
+    .columns > div {
+        padding: 0px 24px;
     }
 }
